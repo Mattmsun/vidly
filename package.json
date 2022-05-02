@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --forceExit --maxWorkers=1 "
+    "test": "jest --watchAll --verbose --forceExit --maxWorkers=",
+    "start": "node index.js"
+  },
+  "engines":{
+    "node": "16.14.2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
     "config": "^3.3.7",
     "express": "^4.16.2",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
+    "helmet": "^5.0.2",
     "joi": "^13.1.0",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
