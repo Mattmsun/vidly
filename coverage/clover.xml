@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651216577139" clover="3.2.0">
-  <project timestamp="1651216577139" name="All files">
-    <metrics statements="299" coveredstatements="185" conditionals="68" coveredconditionals="11" methods="44" coveredmethods="14" elements="411" coveredelements="210" complexity="0" loc="299" ncloc="299" packages="5" files="22" classes="22"/>
+<coverage generated="1651284559430" clover="3.2.0">
+  <project timestamp="1651284559430" name="All files">
+    <metrics statements="298" coveredstatements="183" conditionals="68" coveredconditionals="11" methods="44" coveredmethods="13" elements="410" coveredelements="207" complexity="0" loc="298" ncloc="298" packages="5" files="22" classes="22"/>
     <package name="vidly">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/sunming/Desktop/Node/test/vidly/index.js">
@@ -21,7 +21,7 @@
       </file>
     </package>
     <package name="vidly.middleware">
-      <metrics statements="29" coveredstatements="21" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="3"/>
+      <metrics statements="28" coveredstatements="19" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="2"/>
       <file name="admin.js" path="/Users/sunming/Desktop/Node/test/vidly/middleware/admin.js">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
@@ -37,7 +37,7 @@
         <line num="6" count="0" type="stmt"/>
       </file>
       <file name="auth.js" path="/Users/sunming/Desktop/Node/test/vidly/middleware/auth.js">
-        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
@@ -48,13 +48,12 @@
         <line num="9" count="6" type="stmt"/>
         <line num="10" count="6" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="7" type="stmt"/>
       </file>
       <file name="error.js" path="/Users/sunming/Desktop/Node/test/vidly/middleware/error.js">
-        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
       </file>

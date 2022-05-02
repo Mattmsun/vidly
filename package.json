@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --forceExit --maxWorkers=1 --coverage"
+    "test": "jest --watchAll --verbose --forceExit --maxWorkers=1 "
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
+    "moment": "^2.29.3",
     "mongoose": "^5.0.2",
     "winston": "^3.7.2",
     "winston-mongodb": "^5.0.7"
