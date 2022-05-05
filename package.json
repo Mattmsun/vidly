@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --forceExit --maxWorkers=",
+    "test": "jest --watchAll --verbose --forceExit --maxWorkers=1",
     "start": "node index.js"
   },
   "engines":{
