@@ -1,0 +1,1 @@
+{"level":"error","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {\n  name: 'MongoNetworkError'\n}]"}

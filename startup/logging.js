@@ -1,4 +1,4 @@
-// require("winston-mongodb");
+require("winston-mongodb");
 const winston = require("winston");
 require("express-async-errors");
 
@@ -37,13 +37,13 @@ module.exports = function () {
       ),
     })
   );
-  // winston.add(
-  //   new winston.transports.File({ filename: "logfile.log", level: "error" })
-  // );
-  // winston.add(
-  //   new winston.transports.MongoDB({
-  //     db: "mongodb://localhost/vidly",
-  //     level: "error",
-  //   })
-  // );
+  winston.add(
+    new winston.transports.File({ filename: "logfile.log", level: "error" })
+  );
+  winston.add(
+    new winston.transports.MongoDB({
+      db: "mongodb://localhost/vidly",
+      level: "error",
+    })
+  );
 };

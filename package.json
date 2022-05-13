@@ -7,7 +7,7 @@
     "test": "jest --watchAll --verbose --forceExit --maxWorkers=1",
     "start": "node index.js"
   },
-  "engines":{
+  "engines": {
     "node": "16.14.2"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "bcrypt": "^5.0.1",
     "compression": "^1.7.4",
     "config": "^3.3.7",
+    "cors": "^2.8.5",
     "express": "^4.16.2",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",

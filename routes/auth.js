@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-  if (User.collection.getIndex("email_1")) User.collection.dropIndex("email_1"); //Drop the Unique index:
+  // if (User.collection.getIndex("email_1")) User.collection.dropIndex("email_1"); //Drop the Unique index:
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
   let user = await User.findOne({ email: req.body.email });
@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
 
   const token = user.generateAuthToken();
   //   const token = jwt.sign({ _id: user._id }, config.get("jwtPrivateKey"));
-  res.send(token);
+  res.status(200).send(token);
 });
 
 function validate(req) {
